@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.project.simmazdaworkshop">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="n">
+        <activity android:name=".RegisterStaff"></activity>
+        <activity android:name=".SettingPageStaff" />
+        <activity android:name=".RejectedReservation" />
+        <activity android:name=".CompletedReservation" />
+        <activity android:name=".OnProgressReservation" />
+        <activity android:name=".PendingReservationApproval" />
+        <activity android:name=".MainMenuStaff" />
+        <activity android:name=".LoginWorkshop" />
+        <activity android:name=".AddReservation" />
+        <activity android:name=".MyServiceReservation" />
+        <activity android:name=".AddCar" />
+        <activity android:name=".DetailMobil" />
+        <activity android:name=".WelcomeSplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DetailBengkel" />
+        <activity android:name=".WorkshopList" />
+        <activity android:name=".Registerpage" />
+        <activity android:name=".MyCarPage" />
+        <activity android:name=".SettingPageUser" />
+        <activity android:name=".ProfilePageUser" />
+        <activity android:name=".MainMenuUser" />
+        <activity android:name=".HomeUser" />
+        <activity android:name=".Loginpage" />
+    </application>
+
+</manifest>

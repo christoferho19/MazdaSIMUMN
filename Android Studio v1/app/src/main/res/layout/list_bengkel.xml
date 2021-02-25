@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/edtnama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nama bengkel"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/edtalamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alamat bengkel"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/edtnama"/>
+</RelativeLayout>

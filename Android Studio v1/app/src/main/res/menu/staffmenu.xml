@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navpending"
+        android:title="Pending"
+        android:icon="@drawable/ic_pending_black_24dp"/>
+
+    <item
+        android:id="@+id/navonprogress"
+        android:title="On Progress"
+        android:icon="@drawable/ic_progress_black_24dp"/>
+
+    <item
+        android:id="@+id/navdone"
+        android:title="Complete"
+        android:icon="@drawable/ic_done_black_24dp"/>
+
+    <item
+        android:id="@+id/navreject"
+        android:title="Rejected"
+        android:icon="@drawable/ic_rejected_black_24dp"/>
+
+    <item
+        android:id="@+id/navsettingstaff"
+        android:title="Setting"
+        android:icon="@drawable/ic_settings"/>
+</menu>

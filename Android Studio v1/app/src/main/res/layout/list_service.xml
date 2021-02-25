@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/lblplat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nomor plat"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/lblnamabengkel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Bengkel"
+        android:textColor="@android:color/white"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:layout_below="@id/lblplat"/>
+
+    <TextView
+        android:id="@+id/lbljenisservis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis Servis"
+        android:textColor="@android:color/white"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="18sp"
+        android:layout_below="@id/lblnamabengkel"/>
+
+    <TextView
+        android:id="@+id/lblsesiservis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sesi Servis"
+        android:textColor="@android:color/white"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="18sp"
+        android:layout_below="@id/lbljenisservis"/>
+
+    <TextView
+        android:id="@+id/lbltanggalservis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Servis"
+        android:textColor="@android:color/white"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="18sp"
+        android:layout_below="@id/lblsesiservis"/>
+    <TextView
+        android:id="@+id/lblcatatanservis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Catatan Servis"
+        android:textColor="@android:color/white"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="40dp"
+        android:textSize="18sp"
+        android:layout_below="@id/lbltanggalservis"/>
+
+</RelativeLayout>

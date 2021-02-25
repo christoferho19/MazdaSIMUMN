@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.5"
+        android:layout_gravity="center_horizontal">
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/logo_mazda"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Car"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="#FFFF" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:layout_marginTop="5dp"
+        android:alignmentMode="alignMargins">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Nomor Plat/Polisi:"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/txbnoplat"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="#FFFF"
+                android:ems="10"
+                android:hint="ex. B 2020 K"
+                android:inputType="text"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Model Mobil:"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+
+            <Spinner
+                android:id="@+id/txbmodel"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="#FFFF"
+                android:textColor="#000000"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Tahun Mobil:"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/txbyearmodel"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="#FFFF"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Warna:"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+
+            <Spinner
+                android:id="@+id/txbwarna"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="#FFFF"
+                android:textColor="#000000"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Nomor Rangka:"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/txbnorangka"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="#FFFF"
+                android:ems="10"
+                android:hint="10 kode nomor rangka"
+                android:maxLength="10"
+                android:inputType="text"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Nomor Mesin:"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/txbnomesin"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="#FFFF"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="7 angka nomor mesin"
+                android:textColor="#000000"
+                android:maxLength="7"
+                android:textSize="20sp" />
+            <Button
+                android:id="@+id/btnconfirm"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/roundedbutton"
+                android:text="Register"
+                android:layout_centerInParent="true"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

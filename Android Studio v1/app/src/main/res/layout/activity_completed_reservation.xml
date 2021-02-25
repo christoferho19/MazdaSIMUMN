@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/logo_mazda" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:text="Completed Reservation"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:textSize="27sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lblnamabengkel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Greeting"
+            android:layout_margin="15dp"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:textColor="#FFFF" />
+
+        <ListView
+            android:id="@+id/listpending"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

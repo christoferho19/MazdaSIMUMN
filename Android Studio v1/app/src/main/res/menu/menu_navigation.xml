@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+    android:id="@+id/navhome"
+    android:title="Home"
+    android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/navprofile"
+        android:title="Profile"
+        android:icon="@drawable/ic_account"/>
+
+    <item
+        android:id="@+id/navlocation"
+        android:title="Nearest Mazda"
+        android:icon="@drawable/ic_location"/>
+    
+    <item
+        android:id="@+id/navsetting"
+        android:title="Setting"
+        android:icon="@drawable/ic_settings"/>
+
+
+
+</menu>

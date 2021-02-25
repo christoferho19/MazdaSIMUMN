@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/lblplat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nomor plat"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/lblmodel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Model Mobil"
+        android:textColor="@android:color/white"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        android:layout_below="@id/lblplat"/>
+
+    <TextView
+        android:id="@+id/lblwarna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Warna Mobil"
+        android:textColor="@android:color/white"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="18sp"
+        android:layout_below="@id/lblmodel"/>
+
+</RelativeLayout>
